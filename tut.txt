@@ -1,0 +1,54 @@
+<p>	    Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+-----------------------------------------------------------------------------------
+HTML Images
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+-----------------------------------------------------------------------------------------------
+
+HTML links are defined with the <a> tag:
+
+Example
+<a href="https://www.w3schools.com">This is a link</a>
+---------------------------------------------------------------------------------
+
+for background color
+style="background-color:blue;"
+---------------------------------------------------------------------------------
+
+for text color
+style="color:blue;"
+
+for font 
+style="font-family:verdana;"
+
+for font size
+style="font-size: 500%;"
+
+for align
+style="text-align:center;"
+
+--------------------------------------------------------------------------------
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text        (highlighting the text)
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+----------------------------------------------------------------------------------
+<abbr>	        Defines an abbreviation or acronym
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address>	    Defines contact information for the author/owner of a document
+<bdo>	        Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work
+<q>	            Defines a short inline quotation   (for double quotes)
