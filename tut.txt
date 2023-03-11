@@ -19,6 +19,9 @@ Example
 
 for background color
 style="background-color:blue;"
+
+for border
+<h1 style="border:2px solid Tomato;">Hello World</h1>
 ---------------------------------------------------------------------------------
 
 for text color
@@ -49,6 +52,53 @@ style="text-align:center;"
     <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 <address>	    Defines contact information for the author/owner of a document
 <bdo>	        Defines the text direction
+    <bdo dir="rtl">This text will be written from right to left</bdo>
 <blockquote>	Defines a section that is quoted from another source
-<cite>	        Defines the title of a work
+<cite>	        Defines the title of a work     (for italic)
 <q>	            Defines a short inline quotation   (for double quotes)
+---------------------------------------------------------------------------------------
+
+<a href="#top">back to top</a>  we can use this to go back to top
+-------------------------------------------------------------------------------
+The CSS color property defines the text color to be used.
+
+The CSS font-family property defines the font to be used.
+
+The CSS font-size property defines the text size to be used.
+
+--------------------------------------------------------------
+border: 2px solid powderblue;
+  padding: 300px;
+  margin: 50px;
+
+basically padding creates the distance between text and border;
+margin indent the text in right direction
+---------------------------------------------------------------------
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+----------------------------------------------------------------------------
+to define a button 
+<button onclick="document.location='https://www.w3schools.com'">w3 schools</button>
+---------------------------------------------------------------------------------
+
+we can get info of what the hyperlink text goes to by adding title to the a tag
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+--------------------------------------------------------------------------------------------
+
+Use the CSS float property to let the image float to the right or to the left of a text:
+
+Example
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+------------------------------------------------------------------------------
+placeholder will vanish when we type something while the value remains still
+
+-----------------------------------------------------------------------------
